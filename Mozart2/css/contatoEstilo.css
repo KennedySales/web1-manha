@@ -1,0 +1,120 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+		url(/img/o\ homem.png);
+	background-position: center;
+	background-size: cover;	
+}
+a{
+	text-decoration:none;
+}
+#logo>img{
+	height: 80px;
+}
+header .menu {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding: 40px;
+}
+header .menu li {
+display: inline-block;
+	
+}
+header .menu a{
+	color: white;
+	padding: 8px 12px;
+	border-radius: 3px;
+	transition: 200ms;
+}
+header.menu .ativo, header .menu a:hover{
+	color: #444;
+	background-color:#2EC4B6;
+}
+
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-image: linear-gradient(to right, rgb(139, 136, 135),rgb(74, 30, 155)); 
+    font-size: 15px; 
+} 
+.box{ 
+    color: white; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 25px; 
+    border-radius: 20px; 
+    width: 40%; 
+    margin: 20px; 
+} 
+fieldset{ 
+    border: 3px solid slateblue; 
+} 
+legend{ 
+    border: 2px solid #2EC4B6; 
+    padding: 10px; 
+    text-align: center; 
+    background-color: #2EC4B6; 
+    border-radius: 9px;  
+} 
+.inputbox { 
+    position: relative; 
+} 
+.inputUser { 
+    background: none; 
+    border:none; 
+    border-bottom: 1px solid white; 
+    outline: none; 
+    color: white; 
+    font-size: 12px; 
+    width: 100%; 
+    letter-spacing: 3px; 
+} 
+.labelinput{ 
+    position: absolute; 
+    top:0px; 
+    left: 0px; 
+    pointer-events: none; 
+    transition:0.5em; 
+} 
+ 
+.inputUser:focus ~ .labelinput,  
+.inputUser:valid ~ .labelinput{ 
+    top: -20px; 
+    font-size: 15px; 
+    color: indigo; 
+} 
+ 
+#data_nascimento { 
+    border: none; 
+    padding: 8px; 
+    border-radius: 10px; 
+    outline: none; 
+
+ 
+} 
+ 
+#submite { 
+    background:#2EC4B6;
+    width: 100%; 
+    border:none; 
+    padding: 15px; 
+    border-radius: 15px;
+    color: white; 
+    font-size: 15px; 
+    cursor:pointer;
+} 
+
