@@ -1,0 +1,26 @@
+
+:root{
+    --dark: #1a1c27;
+    --secondary: #836177;
+    --primary: #000;
+    --chamativa: #5701be;
+}
+
+html::-webkit-scrollbar{ /*  conrola  a largura da barra*/
+width: 15px;
+}
+html::-webkit-scrollbar-thumb { /* controla  barra de rolagem*/
+    background-color: var(--chamativa);
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track{ /* controla cor de fundo*/
+    /*  background-color: transparente */
+    background-color: var(--chamativa);
+
+}
+
+
+.bg-principal{
+    height: 2000px;
+    background-color: var(--);
+}
