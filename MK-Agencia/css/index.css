@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: #0020af;
+
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: "Poppins", sans-serif;
+  
+}
+
+.nav-item a:hover{
+    color: #002efd;
+}
+
+/* main principal */
+.main{
+    background: url(/images/001.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+.main h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 5rem;
+    color: #002efd;
+    
+}
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    color: #fafafa;
+    padding-top: 10px;
+
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: #002efd;
+    border: 1px solid;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: all 0.4s;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+.mbtn1:hover{
+    background-color:#0020af;
+    color: #fafafa;
+}
+.main .mPrincipal{
+    font-family: "Poppins", sans-serif;
+    color:  black;
+}
+
+/*  modelo dark */
+
+
+body{
+    background-color: #fafafa;
+    transition: background 0.2s linear;
+
+}
+
+body.dark{
+    background: #232c35;
+}
+.checkbox{  
+    position: absolute;
+}
+
+.label{
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.2);
+}
+
+.label .ball{
+    background-color: #fff;
+    border-radius: 50px;
+   
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+
+}
+
+/* css dos cards */
+.containerCard  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+ /* estilo rodapé */
+ footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #082033;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding:20px 0 ;
+}
+.borda2{
+    border-bottom: 2px solid #379df0;
+}
+footer .line-footer p i{
+    color:#379df0;
+    font-size: 22px;
+
+}
+footer .line-footer p a{
+    color: #fff;
+}
+
+footer .line-footer img {
+    max-height: 45px;
+}
+
+/* css das info da tela  */
+.center{
+    text-align: center;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: #0020af;
+    display: inline-block;
+}
+
+/* css para contatos */
+.Sobrecontato {
+    background: url(/images/card001.png) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.Sobrecontato p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Sobrecontato h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #002efd;
+}
+
+
+.Sobrecontato2{
+    background: url(/images/card003.png) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+
+}
+.Sobrecontato2 p{
+    color: #fafafa;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Sobrecontato2 h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #002efd;
+}
+
+.Sobrecontato3{
+    background: url(/images/card002.png) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.Sobrecontato3 p{
+    color: #fafafa;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Sobrecontato3 h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #002efd;
+}
+
+.Sobrecontato4{
+    background: url(/images/card0005.png) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.Sobrecontato4 p{
+    color: #fafafa;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Sobrecontato4 h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #002efd;
+}
+
+/* css do  bemvindos */
+
+.bemvindos{
+    background: #0020af;
+
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+.bemvindos h1{
+
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bemvindos .card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+
+   
+}
+.bemvindos i{
+    font-size: 45px;
+    color: #002efd;
+}
+.bemvindos h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+section.bemvindos {
+    text-align: center;
+    justify-content: space-between;
+}
